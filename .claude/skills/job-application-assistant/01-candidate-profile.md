@@ -5,7 +5,7 @@
 - **Location:** Orange County, CA, USA
 - **Phone:** 714-321-4564
 - **Email:** michaelmarrujo3@gmail.com
-- **LinkedIn:** (add URL)
+- **LinkedIn:** https://www.linkedin.com/in/mmarrujo3/
 - **GitHub:** (add URL)
 - **Languages:** English (native), Spanish (professional proficiency)
 - **Status:** Employed and actively searching — AI Strategist at Container Supply Company; Founder of Theron Digital
