@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** AI workflow integration & enablement, AI adoption / change management, full-stack web app building (JavaScript, HTML/CSS), business operations & process improvement, cross-functional stakeholder alignment, daily hands-on use of Claude / Claude Code / Gemini / ChatGPT
+**Moderate match areas:** Product/technical PM work, data visualization, requirements gathering, Google Apps Script automation, Spanish-language client work
+**Weak match areas:** Formal software engineering (algorithms, data structures, systems design at scale), backend/database engineering, ML/model training, quota-carrying sales, roles requiring 5+ years or a CS degree
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** AI Strategist / AI adoption & enablement, business operations analysis, building internal tools for non-technical orgs, AI consulting (Theron Digital)
+**Moderate:** Forward-Deployed / Solutions Engineer (real shipped full-stack apps, but not from an engineering-org background), Founder's Associate (generalist range across ops/build/GTM), Technical/Product PM
+**Entry-level:** Anything requiring 5+ years, formal SWE experience, or people-management history — Michael is ~2 years into his post-grad career
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,12 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+Michael is **relocation-friendly** and actually prefers to relocate. Geography is a wide net, not a filter.
+- Remote (US): PASS
+- On-site/hybrid in SoCal (Orange County / LA): PASS (current base)
+- Requires US relocation: PASS
+- English-speaking Europe (remote or relocation): PASS — but FLAG work-authorization / visa sponsorship (US citizen; will need sponsorship for EU roles) and timezone overlap for remote
+- Non-English-primary work environment: FLAG (Spanish OK; other languages a barrier)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +65,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a role at the AI frontier — an AI-native startup or AI lab where he works with the latest models and tooling daily
+- Maximize scope and ownership; keep building things end-to-end rather than owning a narrow slice
+- Accelerate compensation and seniority trajectory over the next few years
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+**Motivation filter:** Evaluate not just whether Michael *can* do the tasks, but whether they will *energize* him. Consider:
+- Tasks that energize: building/shipping working software, standing up something 0-to-1, driving AI adoption, working directly with customers/stakeholders, high-autonomy problem-solving
+- Tasks that drain: quota-carrying cold-call sales, narrow maintenance of a large existing codebase, heavy process/approval overhead, purely administrative work
+- Non-task factors: high autonomy, direct impact, closeness to frontier AI, strong growth path
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed and running a consulting practice — can be selective; ~$100K USD base is the floor to flag under-market
+- **Flexibility**: Relocation-friendly (US and English-speaking Europe); prefers to relocate
+- **Professional development**: Wants to compound technical + AI + business range fast; values environments that stretch scope
 
 ### 6. Salary Benchmark (Optional)
 

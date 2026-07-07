@@ -105,12 +105,14 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For AI Strategist / AI adoption & enablement roles:**
+> AI implementer who turns organizational AI ambitions into shipped, in-production tools. Led a company-wide AI rollout at a $40M manufacturer — Claude and Gemini adoption, internal training on prompt and workflow design, and moving the dev team onto Claude Code — while building the full-stack applications those workflows run on. Fluent translating between the C-suite and the people doing the work, and comfortable owning an initiative from vague business problem to working software.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Forward-Deployed / Solutions Engineer roles:**
+> Builder who ships customer-facing software end-to-end. Designed and built full-stack web applications from scratch (JavaScript, HTML/CSS) that replaced paper and spreadsheet workflows at a $40M manufacturer and a $5M services client, gathering requirements directly from stakeholders and putting the result into production. Combines hands-on development with business fluency and daily use of the modern AI toolchain (Claude, Claude Code) to deploy solutions where the customer actually works.
+
+**For Founder's Associate / generalist operator roles:**
+> Generalist operator who founded a company, ran an org-wide AI transformation, and shipped production software — all within two years of graduating. Comfortable owning whatever needs to happen: scoping and building tools, driving adoption, aligning cross-functional stakeholders, and turning ambiguity into results. Looking to bring that 0-to-1 range to a high-growth team building at the AI frontier.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

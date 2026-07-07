@@ -103,4 +103,22 @@ The cover letter is **not a CV repetition**. It should be forward-looking:
 ## Multi-language Applications
 - Default to the language of the job posting
 - Cover letters in the posting's language should feel natural, not translated
+
+## Michael's Voice — Patterns from His Own Cover Letters
+
+<!-- Extracted from two cover letters Michael wrote himself (Granted, Arcticom). These
+     are his authentic voice. Match this register when drafting; it is far stronger than
+     a generic cover letter. When his patterns conflict with a "Best Practice" section
+     above, prefer HIS voice unless it hurts the specific application. -->
+
+- **Open with a hook, never a template opener.** He does not write "I am writing to apply for..." He opens with a line that reframes the whole letter: *"I want to lead with the honest version of the fit."* / *"Everything in the posting describes my day-to-day. It didn't start that way."* Draft openings in that spirit.
+- **Radical honesty as a strategy.** He names the gap out loud and reframes it, rather than hiding it: *"The line item I don't clear is five years in AI... The build portfolio says more about capability than years on a resume. My read is that the five-year requirement is a filter, not a hard cut. If I'm wrong about that, I'd rather find out now than waste your team's time."* This directness is a signature move — use it when there's an obvious experience gap.
+- **Short, declarative sentences.** Punchy. He lets a blunt sentence stand alone: *"I shipped it solo."* / *"The solution only works if people use it."* Avoid long compound sentences.
+- **Concrete specifics with named stakeholders and dollars.** Not "drove impact" but *"Every order in a 200-vendor manufacturing operation now runs through it. The CFO has confirmed it drove measurable revenue."* Always ground claims in a number, a name, or a verifiable outcome.
+- **Signature positioning line.** He frames himself against a contrast: *"it's operational AI, not lab AI"* and *"the small-company version of this work, where you own the problem end to end and there's no one to hand it to."* Look for a one-line contrast that captures why he fits *this* role.
+- **"I built / I shipped / I own."** First-person ownership throughout. He is the builder, not a participant.
+- **Confident, conversational close.** No begging, no over-enthusiasm: *"Happy to walk through any of the builds in detail."* Keep the closer short and human.
+- **Connect to genuine motivation when it's real.** For the healthcare role he tied in his neuroscience degree and Peru public-health work honestly: *"I come to healthcare honestly."* Only do this where there's a true thread — never manufacture it.
+
+**Note on em-dashes:** Critical Rule #1 above bans em-dashes (they read as an AI tell). Michael's own letters use them naturally. Default to following the rule (commas/periods/restructure) since the letters should not look AI-generated, but his voice tolerates the occasional dash — don't let dash-avoidance make a sentence stiff.
 - Slightly warmer, more personal tone may be acceptable in some languages

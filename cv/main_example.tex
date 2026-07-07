@@ -1,10 +1,11 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Michael J. Marrujo
 %% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% Use as a master reference when tailoring role-specific CVs (cv/main_<company>.tex).
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+%%
+%% TODO: add your GitHub URL to \extrainfo below once you have one.
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
@@ -18,35 +19,36 @@
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
+\usepackage{needspace}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Michael J. Marrujo - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Michael}{Marrujo}
+\address{Orange County, CA, USA}{}{}
+\phone[mobile]{714-321-4564}
+\email{michaelmarrujo3@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/mmarrujo3/}{LinkedIn}}
 
 \begin{document}
 
 \makecvtitle
 
 % ============================================================
-%     PROFILE STATEMENT
+%     PROFILE STATEMENT  (tailor this per role when copying to main_<company>.tex)
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{AI implementer at the intersection of business operations and software. Led a company-wide AI rollout at a \$40M manufacturer while building the full-stack web applications those workflows run on, and founded an AI consulting practice with live client deliverables. Fluent translating between the C-suite and the floor, and comfortable owning an initiative from a vague business problem all the way to shipped, in-production software.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -55,17 +57,11 @@
 \section{Core Competencies}
 \vspace{1pt}
 \begin{itemize}
-
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
-
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
-
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
-
+\item \textbf{AI Adoption \& Enablement}: Org-wide Claude \& Gemini rollout, internal training on prompt and workflow design, moving a dev team onto Claude Code.
+\item \textbf{Full-Stack Development}: Shipping production web apps from scratch in JavaScript, HTML/CSS, and Google Apps Script; GitHub, Replit.
+\item \textbf{Business Operations}: Process mapping, workflow redesign, and cross-functional requirements gathering across sales, finance, logistics, and purchasing.
+\item \textbf{Stakeholder Alignment}: Translating between executives and operators; teaching non-technical teams to adopt new tools.
+\item \textbf{Tooling}: Claude, Claude Code, Gemini, ChatGPT, Excel, data visualization.
 \end{itemize}
 
 % ============================================================
@@ -76,32 +72,39 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2026--Present}{Founder \& Principal Consultant}{Theron Digital}{Orange County, CA}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Founded and run an AI-enabled consulting practice: incorporated the LLC, built the marketing website (HTML/CSS/JavaScript), and publish content that generates inbound interest.
+    \item Scoped and built a custom profitability web application for a \$5M landscape-services client to surface margin drivers across service lines and inform pricing.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2024--Present}{AI Strategist (2026--Present); Accounting Operations $\rightarrow$ Business Operations Analyst (2024--2025)}{Container Supply Company}{Garden Grove, CA}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Designed and built from scratch a full-stack web application (JavaScript, HTML/CSS) replacing the paper-based order workflow at a \$40M manufacturer; rearchitected the order structure with sales, logistics, finance, and purchasing leadership, eliminating recurring C-suite-to-floor escalations.
+    \item Own the company's AI adoption: ran the Claude and Gemini rollout, taught the internal training on prompt and workflow design, and brought the dev team onto Claude Code; consolidated 30 unused licenses for \$6K in annual savings.
+    \item Building a full-stack maintenance app in-house (vs. \$36K off-the-shelf software) to replace a Google Sheets system and clear SQF certification worth \$1M+ in client revenue.
+    \item Moved the company from mailed checks to ACH across 200+ vendors; cut payment turnaround from 5--7 days to one business day, eliminating \$1,500+/year in mailing costs.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2023--2024}{Program Manager}{Giving Children Hope}{Buena Park, CA}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Managed weekly distribution of 350,000+ lbs of food to 250+ families; built a standardized allocation model to handle demand variability.
+    \item Coordinated with 50+ schools to distribute 10,000+ toys to 1,500 children, designing the framework for equitable allocation across sites.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2022}{Public Health Intern}{Vive Peru}{Trujillo, Peru}{}{\vspace{1pt}
+\begin{itemize}
+    \item Co-led a dietary intervention targeting anemia (15\% prevalence reduction in one month); delivered medication and vaccinations to 250+ people, conducting all outreach in Spanish.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +117,9 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\needspace{4\baselineskip}
+\item{\cventry{2019--2023}{BA, Neuroscience \& Behavior (Minor: Business Economics)}{University of Notre Dame}{Notre Dame, IN}{}{\vspace{1pt}
+GPA 3.63/4.00. Studied abroad at Trinity College Dublin. Youth tutor, MC3 Mentors.
 }}
 
 \end{itemize}
@@ -133,27 +131,18 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item English (native), Spanish (professional proficiency).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     LEADERSHIP & INTERESTS
 % ============================================================
 
-\section{Publications}
+\section{Leadership \& Interests}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item Youth Basketball Coach, Play Like a Champion (2022) --- built a neuroscience-based, trauma-informed coaching workshop for five coaches; coached 20 players.
+\item Karate (black belt), golf, sports analytics \& +EV modeling, Stoic philosophy.
 \end{itemize}
 
 % ============================================================

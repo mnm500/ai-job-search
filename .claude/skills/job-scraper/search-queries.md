@@ -1,70 +1,85 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+<!-- Configured for Michael J. Marrujo: US-primary + English-speaking Europe, relocation-friendly. -->
 
 ## Search Sites
 
-Primary (Danish job market):
-- **jobindex.dk** - largest Danish job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: Denmark / your city)
-- **karriere.dk** - IDA's job board (engineering/science roles)
-- **jobfinder.dk** - another major Danish job board
-- **akademikernes.dk** - academic union job board
+**Primary — country-agnostic:**
+- **linkedin.com/jobs** — the built-in `linkedin-search` CLI skill (takes an explicit `-l "<location>"` flag; works for any US/EU market). This is the main portal for this profile.
 
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+**Secondary — US/global boards via Google `site:` searches:**
+- **wellfound.com** (formerly AngelList Talent) — startup / founder's-associate / early-stage roles
+- **ycombinator.com/jobs** (Work at a Startup) — YC-backed startups, many AI-native
+- **greenhouse.io** / **lever.co** / **ashbyhq.com** — ATS domains where AI startups post directly (`site:jobs.lever.co "AI"`, `site:boards.greenhouse.io "forward deployed"`)
+- **builtin.com** — US tech hubs
+- Company career pages directly (Anthropic, OpenAI, and other AI labs/startups)
+
+**Note on the shipped Danish CLIs (Jobindex, Jobbank, Jobdanmark, Jobnet):** these are secondary for this profile — only relevant if targeting Denmark specifically. LinkedIn covers the US and European English-speaking markets. To add a dedicated board for another market, run `/add-portal`.
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. "Copenhagen", "Sjælland", "Hovedstaden") where the site supports it.
+Queries are grouped by priority. Combine each with a location term (e.g. `"Remote"`, `"United States"`, `"San Francisco"`, `"New York"`, `"London"`, `"Dublin"`, `"Amsterdam"`, `"Berlin"`) where the site supports it. Michael is relocation-friendly, so run the top priorities across several locations.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: AI Strategy / AI Enablement (primary)
 
-These match your strongest and most desired career direction.
-
-```
-site:jobindex.dk "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:jobindex.dk "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+Strongest and most-desired direction.
 
 ```
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+linkedin-search -q "AI Strategist" -l "United States"
+linkedin-search -q "AI Consultant" -l "Remote"
+linkedin-search -q "AI enablement" -l "United States"
+linkedin-search -q "AI adoption" -l "London, United Kingdom"
+site:jobs.lever.co "AI Strategy"
+site:boards.greenhouse.io "AI enablement"
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Founder's Associate / Generalist Operator
 
-Adjacent roles you could pivot into.
-
-```
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Rewards Michael's 0-to-1 range across ops, build, and GTM.
 
 ```
-site:jobindex.dk [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:jobindex.dk "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+linkedin-search -q "Founder's Associate" -l "United States"
+linkedin-search -q "Chief of Staff" -l "Remote"
+linkedin-search -q "Business Operations" -l "United States"
+site:wellfound.com "founder's associate"
+site:ycombinator.com/jobs "generalist"
+```
+
+### Priority 3: Forward-Deployed / Solutions Engineer (stretch, backed by shipped apps)
+
+Client-facing technical roles at AI/software companies.
+
+```
+linkedin-search -q "Forward Deployed Engineer" -l "United States"
+linkedin-search -q "Solutions Engineer" -l "Remote"
+linkedin-search -q "Solutions Architect AI" -l "United States"
+site:boards.greenhouse.io "forward deployed"
+site:jobs.ashbyhq.com "solutions engineer"
+```
+
+### Priority 4: Technical / Product PM & Business Operations Analyst (wider net)
+
+Adjacent roles that leverage the build + cross-functional experience.
+
+```
+linkedin-search -q "Technical Product Manager" -l "United States"
+linkedin-search -q "Associate Product Manager AI" -l "Remote"
+linkedin-search -q "Business Operations Analyst" -l "United States"
+linkedin-search -q "Revenue Operations" -l "United States"
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Michael is **relocation-friendly** — geography is a wide net, not a hard filter.
+- **Remote (US):** ideal
+- **US tech hubs (SF Bay Area, NYC, Austin, LA/SoCal, Seattle):** ideal — open to relocating
+- **Orange County / Greater LA:** current base (no relocation needed)
+- **English-speaking Europe (London, Dublin, Amsterdam, Berlin), remote or relocation:** acceptable — FLAG visa/work-authorization (US citizen, needs sponsorship for EU) and timezone overlap for remote
+- **Non-English-primary work environments:** borderline — Spanish is fine, other languages a barrier
+
+## Salary Filter
+
+Flag roles advertising below ~$100K USD base as under-market. Don't auto-reject — surface with the flag.
 
 ## Date Filter
 
@@ -73,4 +88,5 @@ Only include jobs posted within the last 14 days, or with an application deadlin
 ## Adapting Queries
 
 If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+- "/scrape founder's associate" -> Priority 2 queries + custom focus-specific queries
+- "/scrape europe" -> run Priority 1-3 with European location flags (London, Dublin, Amsterdam, Berlin)
