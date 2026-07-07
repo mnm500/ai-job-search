@@ -24,8 +24,9 @@ Orange County, CA
 - Founded and run an AI-enabled consulting practice: incorporated the LLC, built the marketing website (HTML/CSS/JavaScript), and publish content that generates inbound interest
 - Scoped and built a custom profitability web application for a $5M landscape services client to surface margin drivers across service lines and inform pricing decisions
 
-### AI Strategist (Jan 2026 - Present) / Business Operations Analyst (Mar 2024 - Sep 2025) - Container Supply Company
+### AI Strategist (Jan 2026 - Present) - Container Supply Company
 Garden Grove, CA — $40M revenue manufacturer (plastics and metals)
+*Career arc: joined in Accounting Operations (Mar 2024), promoted to Business Operations Analyst, then carved out the AI Strategist role (Jan 2026). Use whichever title framing fits the target role — AI Strategist for AI/strategy roles, the fuller operations arc for ops/analyst roles.*
 - Identified, designed, and built from scratch a full-stack web application (JavaScript, HTML/CSS) replacing the paper-based order workflow; rearchitected the order structure with input from sales, logistics, finance, and purchasing leadership, eliminating recurring C-suite-to-floor escalations across product lines
 - Owns the company's AI adoption: ran the Claude and Gemini rollout, taught the internal training on prompt and workflow design, and brought the development team onto Claude Code; consolidated 30 unused licenses for $6K in annual savings
 - Building a full-stack maintenance web application in-house (instead of buying $36K software) to replace a Google Sheets-based system and clear the company for SQF certification worth $1M+ in client revenue
@@ -40,6 +41,11 @@ Buena Park, CA
 Trujillo, Peru
 - Co-led a dietary intervention targeting anemia in a rural community; conducted pre/post assessments showing a 15% reduction in prevalence within one month
 - Delivered anti-parasitic medication to 150 families and HPV vaccinations to 100+ adolescents through a Peruvian Red Cross partnership, conducting all outreach in Spanish
+
+### Research Assistant - Sleep, Stress, and Memory Lab, University of Notre Dame (Jan 2021 - May 2022)
+Notre Dame, IN
+- Classified 10,000+ EEG (electroencephalogram) segments across 40+ sessions, contributing to research on sleep, memory, and cognitive performance
+- **NOTE (honesty flag):** Michael is unsure whether the two associated studies were ultimately published. Do NOT claim "peer-reviewed publications" in any CV or cover letter unless publication is verified. Frame as a research *contribution*, not authorship. This is a weak/optional bullet — include only for research-adjacent or credibility-focused roles.
 
 ## Leadership
 ### Youth Basketball Coach - Play Like a Champion (Aug 2022 - Dec 2022)
@@ -69,10 +75,10 @@ South Bend, IN
 - Requirements gathering across cross-functional stakeholders (sales, finance, logistics, purchasing, C-suite)
 
 ### Software & Tools
-- Claude, Claude Code, Gemini, ChatGPT, Replit, GitHub, Excel, Google Apps Script, data visualization
+- Claude, Claude Code, Gemini, ChatGPT, Replit, GitHub, Excel, Sage100 (ERP), Google Apps Script, data visualization
 
 ## Publications
-- None
+- None confirmed. (Contributed EEG data classification to sleep/memory research at Notre Dame that was intended for publication — publication status unverified; see Research Assistant role above. Never list as a confirmed publication without checking.)
 
 ## Awards
 - None formal

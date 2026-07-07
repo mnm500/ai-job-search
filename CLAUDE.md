@@ -27,7 +27,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Founder & Principal Consultant** (Mar 2026 - Present) - **Theron Digital** (Orange County, CA)
   - Founded and run an AI-enabled consulting practice: incorporated the LLC, built the website (HTML/CSS/JavaScript), and publish content driving inbound interest
   - Scoped and built a custom profitability web application for a $5M landscape services client to surface margin drivers across service lines and inform pricing
-- **AI Strategist** (Jan 2026 - Present) / **Business Operations Analyst** (Mar 2024 - Sep 2025) - **Container Supply Company** (Garden Grove, CA)
+- **AI Strategist** (Jan 2026 - Present) - **Container Supply Company** (Garden Grove, CA) — came up through Accounting Operations (Mar 2024) → Business Operations Analyst → AI Strategist
   - Designed and built from scratch a full-stack web application (JavaScript, HTML/CSS) replacing the paper-based order workflow at a $40M manufacturer; rearchitected order structure with sales, logistics, finance, and purchasing leadership, eliminating recurring C-suite-to-floor escalations
   - Owns company AI adoption: ran the Claude and Gemini rollout, taught internal training on prompt and workflow design, brought the dev team onto Claude Code; consolidated 30 unused licenses for $6K annual savings
   - Building a full-stack maintenance app (vs. $36K off-the-shelf software) to replace a Google Sheets system and clear SQF certification worth $1M+ in client revenue
@@ -42,13 +42,13 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Primary:** AI workflow integration & enablement, full-stack web development (JavaScript, HTML/CSS), Google Apps Script
 - **Secondary:** Process mapping, data visualization, requirements gathering across cross-functional stakeholders
 - **Domain:** AI adoption / change management, business operations, manufacturing & services operations
-- **Software:** Claude, Claude Code, Gemini, ChatGPT, Replit, GitHub, Excel
+- **Software:** Claude, Claude Code, Gemini, ChatGPT, Replit, GitHub, Excel, Sage100 (ERP)
 
 ### Certifications
 - None currently listed
 
 ### Publications
-- None
+- None confirmed (contributed EEG classification to Notre Dame sleep/memory research intended for publication; status unverified — never claim as a published paper without checking)
 
 ### Awards
 - None formal (Karate black belt; competitive sports analytics / +EV modeling as personal pursuits)
