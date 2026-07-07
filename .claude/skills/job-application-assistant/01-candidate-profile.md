@@ -1,60 +1,84 @@
 # Candidate Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all sections will be filled with your actual information -->
-
 ## Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_ADDRESS]
-- **Phone:** [YOUR_PHONE]
-- **Email:** [YOUR_EMAIL]
-- **LinkedIn:** [YOUR_LINKEDIN_URL]
-- **GitHub:** [YOUR_GITHUB_URL]
-- **Languages:** [YOUR_LANGUAGES with proficiency levels]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **Constraints:** [YOUR_COMMUTE_OR_LOCATION_CONSTRAINTS]
+- **Name:** Michael J. Marrujo
+- **Location:** Orange County, CA, USA
+- **Phone:** 714-321-4564
+- **Email:** michaelmarrujo3@gmail.com
+- **LinkedIn:** (add URL)
+- **GitHub:** (add URL)
+- **Languages:** English (native), Spanish (professional proficiency)
+- **Status:** Employed and actively searching — AI Strategist at Container Supply Company; Founder of Theron Digital
+- **Constraints:** Open to relocation within the US and to English-speaking Europe. No commute constraint tied to current location.
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| [DEGREE] | [YEARS] | [INSTITUTION] | [TOPICS] |
+| BA, Neuroscience & Behavior (Minor: Business Economics) | 2019-2023 | University of Notre Dame | Neuroscience, behavior, economics; GPA 3.63/4.00; study abroad at Trinity College Dublin |
 
 ## Professional Experience
 
-### [JOB_TITLE] - [COMPANY] ([START] - [END])
-[LOCATION]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_1]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_2]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_3]
+### Founder & Principal Consultant - Theron Digital (Mar 2026 - Present)
+Orange County, CA
+- Founded and run an AI-enabled consulting practice: incorporated the LLC, built the marketing website (HTML/CSS/JavaScript), and publish content that generates inbound interest
+- Scoped and built a custom profitability web application for a $5M landscape services client to surface margin drivers across service lines and inform pricing decisions
 
-<!-- Add more roles as needed -->
+### AI Strategist (Jan 2026 - Present) / Business Operations Analyst (Mar 2024 - Sep 2025) - Container Supply Company
+Garden Grove, CA — $40M revenue manufacturer (plastics and metals)
+- Identified, designed, and built from scratch a full-stack web application (JavaScript, HTML/CSS) replacing the paper-based order workflow; rearchitected the order structure with input from sales, logistics, finance, and purchasing leadership, eliminating recurring C-suite-to-floor escalations across product lines
+- Owns the company's AI adoption: ran the Claude and Gemini rollout, taught the internal training on prompt and workflow design, and brought the development team onto Claude Code; consolidated 30 unused licenses for $6K in annual savings
+- Building a full-stack maintenance web application in-house (instead of buying $36K software) to replace a Google Sheets-based system and clear the company for SQF certification worth $1M+ in client revenue
+- Moved the company from mailed checks to ACH across 200+ vendors; cut payment turnaround from 5-7 days to one business day and eliminated $1,500+/year in mailing costs
+
+### Program Manager - Giving Children Hope (Oct 2023 - Feb 2024)
+Buena Park, CA
+- Managed weekly distribution of 350,000+ lbs of food to 250+ families; built a standardized allocation model to handle demand variability across distribution cycles
+- Coordinated with 50+ schools to distribute 10,000+ toys to 1,500 children, designing the logistical framework for equitable allocation across sites
+
+### Public Health Intern - Vive Peru (May 2022 - Jul 2022)
+Trujillo, Peru
+- Co-led a dietary intervention targeting anemia in a rural community; conducted pre/post assessments showing a 15% reduction in prevalence within one month
+- Delivered anti-parasitic medication to 150 families and HPV vaccinations to 100+ adolescents through a Peruvian Red Cross partnership, conducting all outreach in Spanish
+
+## Leadership
+### Youth Basketball Coach - Play Like a Champion (Aug 2022 - Dec 2022)
+South Bend, IN
+- Developed a neuroscience-based workshop on trauma-informed coaching for five youth coaches, translating ACEs research into practice; coached 20 players using these methods
 
 ## Independent Projects
-<!-- Projects outside of employment: freelance, open source, personal -->
-- **[PROJECT_NAME]**: [DESCRIPTION]
+- **Theron Digital** (see Experience) — self-founded AI consulting practice with client deliverables
+- **Sports analytics / +EV modeling** — personal work building expected-value models for sports betting markets
 
 ## Technical Skills
 
-### Programming & ML
-- **[LANGUAGE]** ([PROFICIENCY]): [FRAMEWORKS_AND_LIBRARIES]
-- [OTHER_SKILLS]
+### Programming & Development
+- **JavaScript** (working): full-stack web applications built and shipped in production for a $40M manufacturer and consulting clients
+- **HTML/CSS** (working): front-end for the above applications and marketing sites
+- **Google Apps Script** (working): workflow automation
+- Version control with **GitHub**; rapid prototyping with **Replit**
+
+### AI / Tooling
+- AI workflow integration and enablement (design, rollout, and training)
+- Hands-on daily use of **Claude**, **Claude Code**, **Gemini**, and **ChatGPT**
+- Led an organization-wide AI adoption program (rollout + internal training)
 
 ### Domain Expertise
-- [DOMAIN_1]
-- [DOMAIN_2]
+- Business operations and process improvement (manufacturing and services)
+- Change management / technology adoption
+- Requirements gathering across cross-functional stakeholders (sales, finance, logistics, purchasing, C-suite)
 
 ### Software & Tools
-- [TOOL_LIST]
+- Claude, Claude Code, Gemini, ChatGPT, Replit, GitHub, Excel, Google Apps Script, data visualization
 
 ## Publications
-<!-- List peer-reviewed publications, if any -->
-1. [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL]. [DOI_LINK]
+- None
 
 ## Awards
-- [AWARD] - [EVENT] ([YEAR])
+- None formal
+
+## Interests
+- Karate (black belt), golf, sports analytics & +EV modeling, Stoic philosophy
 
 ## References
-- [NAME], [TITLE], [COMPANY] ([EMAIL], [PHONE])
-
-More references available upon request.
+- Available upon request.
