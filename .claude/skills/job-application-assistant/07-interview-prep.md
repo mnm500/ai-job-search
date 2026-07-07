@@ -59,6 +59,10 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 ### "What's your biggest weakness?"
 > Genuine + mitigation: I default to building the solution myself, which is a strength in a scrappy environment but can mean I take on more than I should. I've been getting deliberate about scoping, pulling stakeholders in earlier, and knowing when to buy instead of build (like the $36K vs. in-house maintenance-app call).
 
+### "Tell me about a disagreement / a time you didn't see eye to eye with someone."
+> Honest, growth-framed, and never disparaging the other person: Early on I'd sometimes give ground in a disagreement to keep things moving, even when I had a well-founded position. I've grown out of that — I've learned to raise my view earlier and more directly, treat it as two adults working toward the same goal, and keep it professional. The way I actually resolve disagreements now is to make the tradeoff visible: I'll build a quick prototype or wireframe so we're reacting to something concrete instead of debating in the abstract, and that usually gets everyone to the real decision fast.
+> (Delivery note: keep it about your own development. Do not describe a specific colleague or credit dispute in an interview.)
+
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.
 

@@ -1,57 +1,64 @@
 # Behavioral Profile
 
-<!-- No formal assessment (PI/DISC/etc.) was provided. This profile is INFERRED from
-     resume content and setup answers. Review and refine before relying on it in
-     interviews or applications. Replace with a real assessment if you take one. -->
+<!-- Based on Michael's own answers to a short behavioral interview. Not a formal
+     assessment (PI/DISC/etc.), but his self-described working style — treat as real. -->
 
 ## Overview
-Michael presents as a **Builder-Owner / Generalist-Operator** pattern: he repeatedly spots a business problem, teaches himself the tools, builds the solution end-to-end, and ships it. He operates comfortably across the technical/business boundary and gravitates to high-autonomy environments where he can own outcomes rather than execute a narrow slice.
+Michael is a **Builder-Architect**: he is most energized when architecting a solution and driving it to completion, and he gets a real charge from visible progress and finished work. He works best heads-down and solo today, and actively wants to grow into more collaboration. He is honest and direct in service of moving work forward, but measured — not confrontational.
 
-## Core Behavioral Drives
-*(Inferred — not a scored assessment)*
+## Core Working Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| Initiative / bias to action | High | Starts and ships without waiting for a mandate (built apps unprompted, founded an LLC) |
-| Autonomy | High | Thrives with ownership and latitude; prefers building over maintaining |
-| Learning velocity | High | Self-taught full-stack development and AI tooling on the job |
-| Formality / process orientation | Moderate | Pragmatic; optimizes for shipped outcomes over rigid process |
+| Architecting / building | High | Comes alive designing and building solutions; this is his core motivation |
+| Drive to finish / ship | High | Energized by making progress and completing things, seeing hard work pay off |
+| Autonomy | High | Does his best work with the latitude to architect and own the solution |
+| Collaboration | Developing | Works best alone right now, but explicitly wants to work more with others |
 
 ## Strongest Behaviors
-- **Ships end-to-end:** identifies a problem, builds the solution, and puts it into production (order workflow app, maintenance app, consulting deliverables)
-- **Translates across audiences:** aligns C-suite, sales, finance, logistics, and floor staff; teaches non-technical teams to adopt AI
-- **Turns ambiguity into working software:** comfortable starting from a vague business need and producing a concrete tool
+- **Architects and finishes.** Motivated by designing a solution and carrying it all the way to done — the payoff is seeing the work land.
+- **"Show, don't tell" to align people.** He builds to move decisions forward — e.g., producing a wireframe and a mock front-end (in Claude) so stakeholders can *see* the capability rather than debate it in the abstract. Prototyping is how he builds consensus.
+- **Honest in service of progress.** He believes a team can't move forward without honesty, and he's willing to say the true thing — while being deliberate about not hurting people unnecessarily.
 
 ## How You Work Best
-- High autonomy and ownership — trusted to define the problem, not just execute a ticket
-- Fast-moving environments where building beats maintaining
-- Close to the latest AI tooling and able to apply it directly
-- Direct impact visible — small enough team/org that his work moves the needle
+- High autonomy to architect and build end-to-end
+- Clear, visible progress toward a finish line — completion is the reward
+- Working with people who actually listen
+- Low redundancy — reviewing or re-hashing work that's already been figured out drains him fast
 
-## Growth Areas (frame positively in applications)
-- **Early-career (~2 years):** frame as fast trajectory and outsized ownership for the tenure — led an org-wide AI rollout and shipped production software within the first two years
-- **No formal CS/engineering credential:** frame around shipped, in-production software and business impact; lead with results, not pedigree
+## What Drains You
+- Wasted time and busywork
+- Re-covering ground that's already been architected/decided
+- People who don't listen
+
+## Growth Areas (honest, frame constructively)
+- **Directness in disagreement.** By his own read, he can sometimes cede ground in a disagreement rather than hold his position. He sees this and is maturing toward handling disagreements more directly and professionally — treating them as adults working toward the same goal. In applications/interviews, frame this as self-aware growth (learning to advocate his position earlier and more firmly), not as a liability.
+- **Collaboration reps.** A strong solo builder who genuinely wants more collaborative work — a plus for roles that will stretch him there.
+
+## Communication Style
+- **Honest but not radical.** He tends toward honesty and believes it's necessary to move work forward, but he is *not* blunt-for-its-own-sake and does not aim to hurt feelings. Diplomatic honesty, not provocation.
+- Note for cover letters: his written voice (see `03-writing-style.md`) leads with striking directness. In person he's warmer and more measured — the letters dial the honesty up as a device. Keep cover-letter voice bold; don't imply he's confrontational in a room.
 
 ## Mapping to Job Posting Language
 
-When a job posting mentions these, it's a **strong behavioral fit**:
-- "wear many hats", "0-to-1", "ownership", "autonomy", "generalist", "founder's mentality"
-- "AI adoption", "enablement", "change management", "forward-deployed", "customer-facing"
-- "fast-paced", "ambiguity", "scrappy", "build from scratch"
+**Strong behavioral fit** when a posting emphasizes:
+- "ownership", "autonomy", "0-to-1", "build from scratch", "prototype", "bias to action", "ship"
+- "direct communication", "low ego", "figure it out", "wear many hats"
 
-When a job posting mentions these, flag as **potential friction** (not a deal-breaker):
-- "deep systems / algorithms expertise", "distributed systems at scale", "CS degree required"
-- "highly structured process", "narrow, well-defined scope", "maintain existing large codebase"
-- "5+ / 8+ years experience required"
+**Potential friction** (not deal-breakers) when a posting emphasizes:
+- Heavy politics or credit-driven cultures
+- Roles that are mostly review/oversight of already-decided work, or lots of redundant process
+- Environments that require constant confrontation or aggressive debate to be heard
 
 ## Management Style Preferences
-*(Inferred)*
-- Works best with a manager who sets the goal and gets out of the way
-- Prefers outcome-based evaluation over activity monitoring
-- Likely chafes under heavy process, rigid approvals, or micromanagement
+- Best with a manager who sets the goal and lets him architect and own the path
+- Values a manager who makes space for honest disagreement and ensures contributions are fairly credited
+- Chafes under micromanagement, redundant re-review, and not being listened to
 
 ## Using This in Applications
-- **Cover letters:** lead with a shipped-something story (built X, adopted by Y, saved $Z); emphasize ownership and cross-functional translation
-- **CV:** quantify impact ($, %, headcount, revenue enabled); foreground "built from scratch" and "owned the rollout"
-- **Interviews:** use the order-workflow app and AI-adoption program as primary STAR examples
-- **Don't overstate:** don't claim deep software-engineering / CS-theory depth; claim shipping working software and business impact
+- **Cover letters:** lead with what he'll build and the progress the employer can expect; keep the honest, direct voice
+- **CV:** foreground architecting and shipping end-to-end; quantify outcomes
+- **Interviews:**
+  - For "tell me about a disagreement/conflict" or "biggest weakness": use his self-aware growth around being more direct in disagreements. Keep it about his own development — never disparage a colleague or past employer.
+  - For "how do you align stakeholders": the wireframe / mock-frontend "show, don't tell" approach is a strong, concrete answer.
+- **Don't overstate:** he's not a natural conflict-seeker and prefers building solo — don't claim he "thrives on debate" or is a natural extroverted team-lead.

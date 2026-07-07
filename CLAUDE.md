@@ -54,12 +54,12 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - None formal (Karate black belt; competitive sports analytics / +EV modeling as personal pursuits)
 
 ### Behavioral Profile
-<!-- Inferred from resume content - review and refine before relying on this -->
-- **Builder-owner** - repeatedly identifies a problem, builds the solution from scratch, and ships it end-to-end (order app, maintenance app, consulting practice)
-- **Cross-functional translator** - aligns C-suite, sales, finance, logistics, and floor stakeholders; teaches non-technical teams to adopt AI
-- **Strengths:** initiative, learning velocity, turning ambiguous business problems into working software, comfort with the latest AI tooling
-- **Growth areas:** ~2 years professional experience (early-career); no formal CS/software-engineering credential — leads with shipped results rather than pedigree
-- **Thrives in:** high-autonomy, high-ownership, fast-moving environments where he can build and own outcomes
+- **Builder-architect** - most energized architecting a solution and driving it to completion; motivated by visible progress and finished, shipped work (order app, maintenance app, consulting practice)
+- **"Show, don't tell"** - builds prototypes (wireframes, mock front-ends in Claude) so stakeholders can see the capability, using that to align people and move decisions forward
+- **Honest but measured** - direct in service of progress; not blunt-for-its-own-sake and doesn't aim to hurt feelings (written cover-letter voice is bolder than his in-person register)
+- **Strengths:** initiative, learning velocity, turning ambiguous problems into working software, comfort with the latest AI tooling
+- **Growth areas:** being more direct in disagreements (self-aware, actively maturing); wants more collaborative reps (strong solo builder); ~2 years experience and no formal CS credential — leads with shipped results over pedigree
+- **Thrives in:** high-autonomy, high-ownership environments where he can architect, build, and finish; low tolerance for redundant re-review and not being listened to
 
 ### What Excites You
 - High-growth startup impact and broad scope/ownership — wearing many hats, seeing direct impact
