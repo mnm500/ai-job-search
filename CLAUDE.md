@@ -77,6 +77,9 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - Prefers relocation; open to relocating within the US and to English-speaking Europe
 - Salary: flag roles below ~$100K USD base as under-market
 
+### Application Preferences
+- **Always apply on the company's own careers site / job page when possible — never via LinkedIn "Easy Apply."** Use LinkedIn (and other boards) only to *discover* postings; then find and use the direct application link on the employer's website. When presenting a scraped or evaluated job, surface the company-site application URL, not the LinkedIn apply button.
+
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
 - `cover_letters/` - LaTeX cover letters (custom cover.cls template)
