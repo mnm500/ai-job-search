@@ -68,7 +68,21 @@ linkedin-search -q "Business Operations Analyst" -l "United States"
 linkedin-search -q "Revenue Operations" -l "United States"
 ```
 
+### Priority 5: Boutique / Small Consulting Firms
+
+Added 2026-07-10 per Michael's request to keep an eye on consulting and boutique-consulting roles alongside the AI-strategy search. Prefer boutique/mid-size shops over MBB/Big4-tier firms — those typically require 8+ years and a name-brand consulting pedigree Michael doesn't have (see DISCO AI Transformation Lead as an example of this gap).
+
+```
+linkedin-search -q "AI Consultant" -l "New York, NY"
+linkedin-search -q "Business Consultant" -l "New York, NY"
+linkedin-search -q "Associate Consultant" -l "United States"
+site:jobs.lever.co "boutique consulting"
+site:boards.greenhouse.io "boutique consulting"
+```
+
 ## Location Filter
+
+Michael has flagged a current preference for **New York, NY** — weight NY-based postings favorably when presenting results, but continue surfacing strong matches elsewhere too (this is a preference signal, not a hard filter).
 
 Michael is **relocation-friendly** — geography is a wide net, not a hard filter.
 - **Remote (US):** ideal
