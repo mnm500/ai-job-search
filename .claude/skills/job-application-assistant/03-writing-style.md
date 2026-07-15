@@ -66,10 +66,12 @@ The cover letter is **not a CV repetition**. It should be forward-looking:
 - Focus on how you'll contribute to their goals, not what you gain from employment
 - If you spoke with someone at the company, reference the conversation naturally
 
-### Company-Specific Paragraph
-- Show you've researched the company (mention specific projects, values, or market position)
+### Company-Specific Paragraph (required, not optional)
+- Show you've researched the company (mention specific projects, values, or market position) - research via WebFetch/WebSearch, never invent this detail
 - Explain why this company specifically, not just "a company like yours"
-- Connect domain knowledge to their business context
+- **Connect the researched detail to the same personal pattern/story anchoring the rest of the letter** - not a standalone compliment. Example (Elixirr letter): naming Elixirr's "challenger consultancy" positioning - entrepreneurial thinking, early responsibility, direct client exposure - and tying it to the ownership/trust pattern he leads with elsewhere in the letter, rather than praising the culture in isolation
+- One researched detail, tied tightly, beats three generic ones. If nothing specific and verifiable turns up, say so rather than filling the paragraph with vague enthusiasm
+- Do not adopt the generic "Problem-solving: / Teamwork: / Analytical skills:" bullet-label structure from Michael's earlier (pre-Granted) letters - that format is superseded; keep flowing narrative per "Michael's Voice" below
 
 ### Closing
 - Brief, confident, forward-looking
