@@ -58,6 +58,7 @@ REQUIRED_IGNORE_RULES = [
     "documents/applications/**",
     "documents/interview/**",
     "job_search_tracker.csv",
+    "outreach_tracker.csv",
 ]
 
 # Negation (re-include) rules the template legitimately ships. .gitignore is
