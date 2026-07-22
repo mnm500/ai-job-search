@@ -74,8 +74,20 @@ https://www.linkedin.com/search/results/people/?keywords=<url-encoded "<Company 
 https://www.linkedin.com/search/results/people/?keywords=<url-encoded "<Company Name> recruiter">&origin=GLOBAL_SEARCH_HEADER
 ```
 
-**Priority order: hiring manager → an engineer on the team → recruiter/TA → the
-company's own LinkedIn page.** Present the links; the user opens and browses them. Read
+**D. Notre Dame alumni at the company (bias check)**
+```
+https://www.linkedin.com/search/results/people/?keywords=<url-encoded "<Company Name> Notre Dame">&origin=GLOBAL_SEARCH_HEADER
+```
+The candidate is a Notre Dame alum (see `01-candidate-profile.md`). Always run this search
+alongside A-C. **If the visible results show a Notre Dame alum at the target company,
+prioritize them over a same-tier non-alum contact** — a shared alma mater is a genuine,
+specific connection point, not a generic one. This doesn't override the hiring-manager
+priority below outright: an ND alum in a hiring-manager or peer-engineer role jumps to the
+front; an ND alum in an unrelated role still outranks a cold recruiter/TA contact.
+
+**Priority order: ND alum in a hiring-manager or peer role → hiring manager → an engineer
+on the team → any other ND alum → recruiter/TA → the company's own LinkedIn page.** Present
+the links; the user opens and browses them. Read
 only what is visibly on the page once they navigate there — **never fetch or scrape
 LinkedIn people-search result pages programmatically**, same rule `job-scraper/SKILL.md`
 Step 4.5 and Rule 7 already set. Never fabricate a contact or claim a specific person was
@@ -94,7 +106,8 @@ no-fabrication rule `/apply` and `/outcome`'s follow-up branch already follow.
 
 **T1 — Connection note.** ≤300 characters (LinkedIn's hard limit on connection-request
 notes). One specific, genuine reason for reaching out (the role, a shared interest, a
-piece of their work). No pitch, no CV attached, no ask beyond connecting.
+piece of their work — **or, for a Notre Dame alum identified in Step 2D, the shared alma
+mater**). No pitch, no CV attached, no ask beyond connecting.
 
 **T2 — On acceptance, +1 day.** ≤120 words. One low-cost ask (a quick question about the
 role or team, not "can we hop on a call"). Reference T1 naturally rather than
