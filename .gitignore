@@ -72,6 +72,9 @@ documents/interview/**
 # Personal job search tracking
 job_search_tracker.csv
 
+# Outreach touch log (contact names, messages sent - personal data)
+outreach_tracker.csv
+
 # Gmail sync state (message IDs, subjects - personal data)
 gmail_sync/
 
