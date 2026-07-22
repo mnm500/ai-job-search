@@ -1,3 +1,7 @@
+---
+framework_version: 1.0.0
+---
+
 # Behavioral Profile
 
 <!-- Based on Michael's own answers to a short behavioral interview. Not a formal
