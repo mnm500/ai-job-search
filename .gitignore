@@ -69,6 +69,13 @@ documents/postings/**
 documents/interview/**
 !documents/**/.gitkeep
 
+# Personal resume/cover-letter documents (real name, real target companies)
+templates/Resumes/**/*.docx
+templates/Cover Letters/**/*.docx
+
+# Personal candidate profile, split out of CLAUDE.md so upstream syncs can't overwrite it
+CLAUDE.local.md
+
 # Personal job search tracking
 job_search_tracker.csv
 
