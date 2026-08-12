@@ -1,5 +1,5 @@
 ---
-framework_version: 1.0.0
+framework_version: 1.1.1
 ---
 
 # Candidate Profile
@@ -14,6 +14,16 @@ framework_version: 1.0.0
 - **Languages:** English (native), Spanish (professional proficiency)
 - **Status:** Employed and actively searching — AI Strategist at Container Supply Company; Founder of Theron Digital
 - **Constraints:** Open to relocation within the US and to English-speaking Europe. No commute constraint tied to current location.
+
+### Languages
+<!-- Every language you can work in professionally, with your honest level. Used by the
+Language Gate in 04-job-evaluation.md and by job-scraper/search-queries.md's query-language
+generation. Omit any language you don't actually work in - an undeclared language is treated as
+a hard no, not a gap to smooth over. -->
+
+| Language | Level | Notes |
+|----------|-------|-------|
+| [LANGUAGE] | [LEVEL, e.g. "Native" / "C2" / "B1/B2 (conversational)"] | [optional] |
 
 ## Education
 
