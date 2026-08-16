@@ -10,8 +10,8 @@ framework_version: 1.1.1
 - **Phone:** 714-321-4564
 - **Email:** michaelmarrujo3@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/mmarrujo3/
-- **GitHub:** (add URL)
-- **Languages:** English (native), Spanish (professional proficiency)
+- **GitHub:** https://github.com/mnm388 (currently 0 public repos — placeholder pending employer sign-off to open-source select Container Supply projects)
+- **Languages:** English (native), Spanish (professional working proficiency)
 - **Status:** Employed and actively searching — AI Strategist at Container Supply Company; Founder of Theron Digital
 - **Constraints:** Open to relocation within the US and to English-speaking Europe. No commute constraint tied to current location.
 
@@ -23,7 +23,8 @@ a hard no, not a gap to smooth over. -->
 
 | Language | Level | Notes |
 |----------|-------|-------|
-| [LANGUAGE] | [LEVEL, e.g. "Native" / "C2" / "B1/B2 (conversational)"] | [optional] |
+| English | Native | |
+| Spanish | Professional working proficiency | Built through a 2-month immersion in Peru; holds formal/informal conversation and navigates around unfamiliar vocabulary |
 
 ## Education
 
@@ -41,10 +42,14 @@ Orange County, CA
 ### AI Strategist (Jan 2026 - Present) - Container Supply Company
 Garden Grove, CA — $40M revenue manufacturer (plastics and metals)
 *Career arc: joined in Accounting Operations (Mar 2024), promoted to Business Operations Analyst, then carved out the AI Strategist role (Jan 2026). Use whichever title framing fits the target role — AI Strategist for AI/strategy roles, the fuller operations arc for ops/analyst roles.*
-- Identified, designed, and built from scratch a full-stack web application (JavaScript, HTML/CSS) replacing the paper-based order workflow; rearchitected the order structure with input from sales, logistics, finance, and purchasing leadership, eliminating recurring C-suite-to-floor escalations across product lines
-- Owns the company's AI adoption: ran the Claude and Gemini rollout, taught the internal training on prompt and workflow design, and brought the development team onto Claude Code; consolidated 30 unused licenses for $6K in annual savings
-- Building a full-stack maintenance web application in-house (instead of buying $36K software) to replace a Google Sheets-based system and clear the company for SQF certification worth $1M+ in client revenue
+- Identified, designed, built, and shipped a full-stack Google Apps Script web application (HTML Service frontend, Apps Script backend, Sheets data layer) replacing the paper-based order workflow — succeeding an earlier Apps Script + Gemini API pipeline built as a stopgap to parse scanned paper orders; rearchitected the order structure with input from sales, logistics, finance, and purchasing leadership to surface only operationally relevant data, eliminating recurring C-suite-to-floor escalations across product lines; now wiring the app into the live inventory system so manufacturing can decide in real time whether to produce or pull from stock
+- Owns the company's AI adoption: ran the Claude and Gemini rollout — audited 82 company email accounts, identified 30 inactive licenses, and architected a cost-neutral upgrade path saving $6K/year — taught the internal training on prompt and workflow design, and rolled out Claude Teams to 6 users to drive hands-on adoption of generative AI in daily operations
+- Built a full-stack maintenance-management (CMMS) web application in-house with a collaborator (instead of buying $36K software), replacing an earlier Google Sheets prototype; live and in daily use, shipping new features continuously (currently adding preventative maintenance), on track to clear the company for SQF certification worth $1M+ in client revenue
 - Moved the company from mailed checks to ACH across 200+ vendors; cut payment turnaround from 5-7 days to one business day and eliminated $1,500+/year in mailing costs
+- Built an AR collections agent (Python, scheduled via Task Scheduler) that reads Sage ERP data through an ODBC driver and sends automated emails twice weekly across the full AR book — to each of 4 salespeople, the head of logistics, and the accountant when a COD/CWO account carries a balance it shouldn't have under those terms; live and running on schedule, with outcome data still too early to measure
+- Building a CFO-facing financial dashboard (Cloudflare Workers backend, Pages hosting, React frontend, BigQuery-fed) to replace manual Excel pulls from Sage — which had no prior visualization — with a full snapshot across AR, AP, cash flow, profitability, and SKU/BOM data; not yet live
+- Built a BigQuery data warehouse — custom schemas and table relationships, automated daily Python-driven pulls from Sage, GCP service-account auth — unlocking programmatic access to ERP data that wasn't previously accessible in any form; live and running, now the shared data layer feeding the AR agent, the purchasing agent, and the in-progress dashboard
+- Built a purchasing agent (weekly cadence, BigQuery-fed, cross-referenced against Google Sheets) monitoring 40 SKUs — scoped by the head of purchasing — against reorder thresholds; live and running on schedule, with impact still too early to measure
 
 ### Program Manager - Giving Children Hope (Oct 2023 - Feb 2024)
 Buena Park, CA
@@ -75,13 +80,18 @@ South Bend, IN
 ### Programming & Development
 - **JavaScript** (working): full-stack web applications built and shipped in production for a $40M manufacturer and consulting clients
 - **HTML/CSS** (working): front-end for the above applications and marketing sites
-- **Google Apps Script** (working): workflow automation
+- **Google Apps Script** (working): workflow automation, order management app
+- **Python** (working): scheduled data/automation agents (AR collections, purchasing)
+- **React** (working): frontend for the in-progress CFO dashboard
+- ODBC/SQL integration with ERP data (Sage100); data warehousing with **BigQuery** (custom schema design)
+- **Cloudflare** (Workers, Pages) for backend/hosting
 - Version control with **GitHub**; rapid prototyping with **Replit**
 
 ### AI / Tooling
 - AI workflow integration and enablement (design, rollout, and training)
 - Hands-on daily use of **Claude**, **Claude Code**, **Gemini**, and **ChatGPT**
 - Led an organization-wide AI adoption program (rollout + internal training)
+- Multi-agent / tiered agent orchestration (Claude Code)
 
 ### Domain Expertise
 - Business operations and process improvement (manufacturing and services)
@@ -89,7 +99,7 @@ South Bend, IN
 - Requirements gathering across cross-functional stakeholders (sales, finance, logistics, purchasing, C-suite)
 
 ### Software & Tools
-- Claude, Claude Code, Gemini, ChatGPT, Replit, GitHub, Excel, Sage100 (ERP), Google Apps Script, data visualization
+- Claude, Claude Code, Gemini, ChatGPT, Replit, GitHub, Excel, Sage100 (ERP), Google Apps Script, BigQuery, Cloudflare, GCP (service accounts), data visualization
 
 ## Publications
 - None confirmed. (Contributed EEG data classification to sleep/memory research at Notre Dame that was intended for publication — publication status unverified; see Research Assistant role above. Never list as a confirmed publication without checking.)
